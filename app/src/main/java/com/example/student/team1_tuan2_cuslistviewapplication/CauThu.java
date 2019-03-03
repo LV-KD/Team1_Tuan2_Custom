@@ -2,11 +2,9 @@ package com.example.student.team1_tuan2_cuslistviewapplication;
 
 public class CauThu {
     private String tenCauThu;
-<<<<<<< HEAD
     private int imgCauthu,imgQuocGia;
-=======
-    private int imgCauthu, imgQuocGia;
->>>>>>> ThanhThien
+
+
 
     public String getTenCauThu() {
         return tenCauThu;
@@ -39,11 +37,7 @@ public class CauThu {
     }
 
     public CauThu() {
-<<<<<<< HEAD
     }
 
-=======
 
-    }
->>>>>>> ThanhThien
 }

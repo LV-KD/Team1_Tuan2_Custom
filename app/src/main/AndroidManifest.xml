@@ -17,11 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
+
         <activity android:name=".CustomListViewActivity"></activity>
-=======
+
         <activity android:name=".CustomGridViewActivity"></activity>
->>>>>>> ThanhThien
+
     </application>
 
 </manifest>
