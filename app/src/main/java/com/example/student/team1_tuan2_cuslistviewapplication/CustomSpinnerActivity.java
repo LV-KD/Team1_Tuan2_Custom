@@ -14,20 +14,37 @@ public class CustomSpinnerActivity extends AppCompatActivity {
     Spinner sp;
     ArrayList<Player> arrP;
     PlayerArrayAdapter arrayAdapterLs = null;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_custom_spinner);
+
         anhxa();
+
         arrP = PlayerModel.getListPlayerDemo();
         arrayAdapterLs = new PlayerArrayAdapter( this,R.layout.cus_spinner_layout,arrP);
         sp.setAdapter(arrayAdapterLs);
 
-        sp.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        /*sp.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Player p = arrP.get(position);
                 tvname.setText(p.getName());
+            }
+         });*/
+        
+        sp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                Player p = arrP.get(position);
+                tvname.setText(p.getName());
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
             }
         });
     }

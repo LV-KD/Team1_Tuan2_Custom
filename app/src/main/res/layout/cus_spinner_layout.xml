@@ -10,7 +10,7 @@
         android:layout_height="70dp"
         android:src="@drawable/ava_ronaldo_beo" />
     <TextView
-        android:id="@+id/tv_name"
+        android:id="@+id/tv_nameSpinner"
         android:text="AAA"
         android:textSize="10pt"
         android:layout_width="wrap_content"

@@ -46,7 +46,7 @@ public class PlayerArrayAdapter extends BaseAdapter {
             LayoutInflater inflater = (LayoutInflater) myContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             view = inflater.inflate(myLayout, null);
             holder = new ViewHolder();
-            holder.tv_name1 = view.findViewById(R.id.tv_name);
+            holder.tv_name1 = view.findViewById(R.id.tv_nameSpinner);
             holder.img_cus1 = view.findViewById(R.id.img_cus);
             view.setTag(holder);
         } else {
