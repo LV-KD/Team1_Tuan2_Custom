@@ -26,8 +26,11 @@
       </value>
     </option>
   </component>
+<<<<<<< HEAD
 =======
 >>>>>>> cusSpinner
+=======
+>>>>>>> e02c31bb784a021abddb370557dad85be970c73d
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
