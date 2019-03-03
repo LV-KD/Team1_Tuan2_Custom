@@ -13,14 +13,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-<<<<<<< HEAD
     public void Cus_Spinner(View view) {
-        Intent intent = new Intent(MainActivity.this,CustomSpinnerActivity.class);
+        Intent intent = new Intent(MainActivity.this, CustomSpinnerActivity.class);
         startActivity(intent);
-=======
+
+    }
     public void btnListView(View view) {
         Intent it = new Intent(MainActivity.this,CustomListViewActivity.class);
         startActivity(it);
->>>>>>> e02c31bb784a021abddb370557dad85be970c73d
+
     }
 }
