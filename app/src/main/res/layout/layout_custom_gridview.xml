@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_player1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_img_cus"
+        android:src="@drawable/ava_beckham"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/horizontal_Spacing_Grid"
+            android:text="Name:  "
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/horizontal_Spacing_Grid"
+        android:text="Nationality:  "
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/img_National"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_img_cus"
+        android:src="@drawable/flag_achentina" />
+</LinearLayout>
