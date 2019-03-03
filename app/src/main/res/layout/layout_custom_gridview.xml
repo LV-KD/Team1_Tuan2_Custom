@@ -19,7 +19,7 @@
             android:text="Name:  "
             android:textStyle="bold"/>
         <TextView
-            android:id="@+id/tv_Name"
+            android:id="@+id/tv_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
@@ -31,7 +31,7 @@
         android:text="Nationality:  "
         android:textStyle="bold"/>
     <ImageView
-        android:id="@+id/img_National"
+        android:id="@+id/img_quocgia"
         android:layout_width="match_parent"
         android:layout_height="@dimen/height_img_cus"
         android:src="@drawable/flag_achentina" />

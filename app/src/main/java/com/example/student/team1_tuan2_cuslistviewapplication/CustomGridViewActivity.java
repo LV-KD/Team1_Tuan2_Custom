@@ -19,7 +19,7 @@ public class CustomGridViewActivity extends AppCompatActivity {
         gv_GridView1 = (GridView) findViewById(R.id.gv_GridView1);
 
         arrayCauThu = CauThuModel.getListCauThuDemo();
-        adapter = new CauThuArrayAdapter(this,R.layout.activity_custom_grid_view,arrayCauThu);
+        adapter = new CauThuArrayAdapter(this,R.layout.layout_custom_gridview,arrayCauThu);
         gv_GridView1.setAdapter(adapter);
 
     }
