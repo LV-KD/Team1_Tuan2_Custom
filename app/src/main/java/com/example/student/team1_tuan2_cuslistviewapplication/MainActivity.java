@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+<<<<<<< HEAD
     public void Cus_Spinner(View view) {
         Intent intent = new Intent(MainActivity.this, CustomSpinnerActivity.class);
         startActivity(intent);
@@ -22,5 +23,10 @@ public class MainActivity extends AppCompatActivity {
         Intent it = new Intent(MainActivity.this,CustomListViewActivity.class);
         startActivity(it);
 
+=======
+    public void IntentCustomGridViewActivity(View view) {
+        Intent intent = new Intent(MainActivity.this,CustomGridViewActivity.class);
+        startActivity(intent);
+>>>>>>> ThanhThien
     }
 }
