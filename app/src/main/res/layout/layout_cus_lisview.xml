@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/img_player1"
+        android:layout_width="@dimen/height_img_cus"
+        android:layout_height="@dimen/height_img_cus"
+        android:src="@drawable/ava_beckham"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/horizontal_Spacing_Grid"
+                android:text="Name : " />
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/horizontal_Spacing_Grid"
+                android:text="Nationality : " />
+
+            <ImageView
+                android:id="@+id/img_quocgia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/flag_achentina" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
